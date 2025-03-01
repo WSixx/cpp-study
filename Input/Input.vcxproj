@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{acaa3626-1098-4d6a-979d-c289afe7a15f}</ProjectGuid>
-    <RootNamespace>ConceitoVariavel</RootNamespace>
+    <ProjectGuid>{27b9fac6-a11a-4b73-9fa5-7a8ea7041f20}</ProjectGuid>
+    <RootNamespace>Input</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,9 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Constantes.cpp" />
-    <ClCompile Include="increDecre.cpp" />
-    <ClCompile Include="variavel.cpp" />
+    <ClCompile Include="UserInput.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
